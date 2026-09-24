@@ -1,0 +1,25 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="64" height="64" viewBox="0 0 64 64">
+  <defs>
+    <filter id="shadow" x="-20%" y="-20%" width="140%" height="140%">
+      <feDropShadow dx="0" dy="4" stdDeviation="4" flood-color="#000000" flood-opacity="0.45"/>
+    </filter>
+  </defs>
+  <!-- Outer Glow Ring -->
+  <circle cx="32" cy="32" r="28" fill="#DC2626" stroke="#FFFFFF" stroke-width="3.5" filter="url(#shadow)"/>
+  <!-- Inner White Shield -->
+  <circle cx="32" cy="32" r="22" fill="#FFFFFF" fill-opacity="0.15"/>
+  <!-- Ambulance Body -->
+  <rect x="14" y="22" width="34" height="22" rx="4" fill="#FFFFFF"/>
+  <path d="M40 24h9l5 8v12h-14V24z" fill="#FFFFFF"/>
+  <rect x="42" y="26" width="7" height="6" rx="1.5" fill="#1E293B"/>
+  <!-- Red Cross -->
+  <rect x="22" y="27" width="10" height="4" rx="1" fill="#DC2626"/>
+  <rect x="25" y="24" width="4" height="10" rx="1" fill="#DC2626"/>
+  <!-- Flashing Emergency Beacon -->
+  <circle cx="32" cy="18" r="3.5" fill="#F59E0B" stroke="#FFFFFF" stroke-width="1"/>
+  <!-- Wheels -->
+  <circle cx="23" cy="44" r="5" fill="#0F172A" stroke="#FFFFFF" stroke-width="1.5"/>
+  <circle cx="23" cy="44" r="2" fill="#94A3B8"/>
+  <circle cx="45" cy="44" r="5" fill="#0F172A" stroke="#FFFFFF" stroke-width="1.5"/>
+  <circle cx="45" cy="44" r="2" fill="#94A3B8"/>
+</svg>

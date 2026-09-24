@@ -1,0 +1,16 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="64" height="64" viewBox="0 0 64 64">
+  <defs>
+    <filter id="glow" x="-20%" y="-20%" width="140%" height="140%">
+      <feDropShadow dx="0" dy="3" stdDeviation="3" flood-color="#0284C7" flood-opacity="0.5"/>
+    </filter>
+  </defs>
+  <!-- Outer Pulse Halo -->
+  <circle cx="32" cy="32" r="28" fill="#0284C7" fill-opacity="0.22" stroke="#38BDF8" stroke-width="1.5" stroke-dasharray="4 2"/>
+  <!-- Middle Ring -->
+  <circle cx="32" cy="32" r="18" fill="#0284C7" stroke="#FFFFFF" stroke-width="2.5" filter="url(#glow)"/>
+  <!-- User Silhouette Icon -->
+  <circle cx="32" cy="27" r="5" fill="#FFFFFF"/>
+  <path d="M22 41c0-4.5 4.5-7 10-7s10 2.5 10 7" fill="#FFFFFF"/>
+  <!-- Center Exact GPS Dot -->
+  <circle cx="32" cy="32" r="2" fill="#38BDF8"/>
+</svg>
